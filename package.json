@@ -1,0 +1,25 @@
+{
+  "name": "bandera.uy",
+  "version": "1.0.0",
+  "description": "Orientales, la Patria o la Tumba!",
+  "main": "index.js",
+  "bin": {
+     "bandera.uy": "./index.js",
+     "flag.uy": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickkettner/bandera.uy.git"
+  },
+  "author": "Patrick Kettner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickkettner/bandera.uy/issues"
+  },
+  "homepage": "https://github.com/patrickkettner/bandera.uy#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "pty.js": "^0.3.0",
+    "term.js": "0.0.7"
+  }
+}
